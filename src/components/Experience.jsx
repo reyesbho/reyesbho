@@ -138,7 +138,7 @@ const Experience = () => {
               
               <div className="space-y-4">
                 <div>
-                  <h4 className="font-semibold text-gray-800 mb-2">Responsabilidades:</h4>
+                  <h4 className="font-semibold text-gray-800 mb-2">Actividades:</h4>
                   <ul className="list-disc list-inside space-y-1 text-gray-600">
                     {exp.description.map((item, i) => (
                       <li key={i}>{item}</li>

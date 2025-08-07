@@ -4,7 +4,7 @@ import { Mail, Phone, MapPin, Linkedin, Github } from 'lucide-react';
 const Header = () => {
   return (
     <motion.header 
-      className="bg-gradient-to-r from-blue-600 to-purple-600 text-white py-16"
+      className="bg-gradient-to-r from-blue-600 to-blue-900 text-white py-16"
       initial={{ opacity: 0, y: -50 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8 }}
@@ -34,8 +34,7 @@ const Header = () => {
             transition={{ delay: 0.7 }}
           >
             Apasionado de la tecnología con 8 años de experiencia en desarrollo de software, 
-            tanto en BackEnd como en FrontEnd. Líder de equipos de desarrollo impulsando 
-            proyectos exitosos y soluciones innovadoras.
+            tanto en BackEnd como en FrontEnd.
           </motion.p>
           
           <motion.div 

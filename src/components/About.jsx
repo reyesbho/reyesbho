@@ -35,9 +35,8 @@ const About = () => {
                 <div>
                   <h3 className="text-xl font-semibold text-gray-800 mb-2">Perfil Profesional</h3>
                   <p className="text-gray-600 leading-relaxed">
-                    Soy un apasionado de la tecnología con 8 años de experiencia en desarrollo de software, 
-                    tanto en BackEnd como en FrontEnd. He tenido el privilegio de liderar equipos de desarrollo, 
-                    impulsando proyectos exitosos y colaborando en la creación de soluciones innovadoras.
+                  ¡Hola!, Soy un apasionado desarrollador Full Stack con experiencia en la creación de soluciones tecnológicas. Con un enfoque integral en el desarrollo del lado del cliente y del servidor, estoy comprometido con la entrega de productos de alta calidad que satisfacen las necesidades del usuario y superan las expectativas.
+                  Me entusiasma la tecnología y siempre estoy buscando maneras de mejorar mis habilidades y conocimientos
                   </p>
                 </div>
               </div>

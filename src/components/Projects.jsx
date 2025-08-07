@@ -10,7 +10,7 @@ const Projects = () => {
       image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=500&h=300&fit=crop",
       github: "https://github.com/reyesbho/document-signing-platform",
       live: "#",
-      featured: true
+      featured: false
     },
     {
       title: "Servicios de Verificación de Información",
@@ -19,7 +19,7 @@ const Projects = () => {
       image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=500&h=300&fit=crop",
       github: "https://github.com/reyesbho/verification-services",
       live: "#",
-      featured: true
+      featured: false
     },
     {
       title: "Sistema de Gestión de Campañas Publicitarias",

@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <motion.section 
       className="py-8"
-      initial={{ opacity: 0, y: 20 }}
+      initial={{ opacity: 0, y: 0 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6 }}
     >
@@ -24,7 +24,7 @@ const Contact = () => {
           <div className="grid  gap-8">
             <motion.div 
               className="flex flex-row items-start justify-center"
-              initial={{ opacity: 0, x: -50 }}
+              initial={{ opacity: 0, x: 0 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ delay: 0.3 }}
             >
@@ -32,15 +32,6 @@ const Contact = () => {
               
               <div className="space-y-4">
               <h4 className="font-semibold text-gray-800 mb-4">Información de Contacto</h4>
-                <div className="flex items-center gap-4">
-                  <div className="bg-blue-100 p-3 rounded-lg">
-                    <Phone className="text-blue-600" size={20} />
-                  </div>
-                  <div>
-                    <h4 className="font-semibold text-gray-800">Teléfono</h4>
-                    <p className="text-gray-600">5638549785</p>
-                  </div>
-                </div>
                 
                 <div className="flex items-center gap-4">
                   <div className="bg-green-100 p-3 rounded-lg">
@@ -58,7 +49,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-gray-800">Ubicación</h4>
-                    <p className="text-gray-600">Santa Cruz Tacahua, Cp. 71180. Oaxaca, México</p>
+                    <p className="text-gray-600"> Oaxaca, México</p>
                   </div>
                 </div>
                 

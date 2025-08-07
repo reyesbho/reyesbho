@@ -4,8 +4,9 @@ import About from './components/About';
 import Skills from './components/Skills';
 import Experience from './components/Experience';
 import Projects from './components/Projects';
+import PersonalProjects from './components/PersonalProjects';
 import Contact from './components/Contact';
-import { User, Code, Briefcase, FolderOpen, Mail } from 'lucide-react';
+import { User, Code, Briefcase, FolderOpen, Mail, Github } from 'lucide-react';
 
 function App() {
   const [activeTab, setActiveTab] = useState('about');
@@ -14,7 +15,8 @@ function App() {
     { id: 'about', label: 'Quién Soy', icon: <User size={20} /> },
     { id: 'skills', label: 'Habilidades', icon: <Code size={20} /> },
     { id: 'experience', label: 'Experiencia', icon: <Briefcase size={20} /> },
-    { id: 'projects', label: 'Proyectos', icon: <FolderOpen size={20} /> },
+    { id: 'projects', label: 'Proyectos Empresariales', icon: <FolderOpen size={20} /> },
+    { id: 'personal', label: 'Proyectos Personales', icon: <Github size={20} /> },
     { id: 'contact', label: 'Contacto', icon: <Mail size={20} /> }
   ];
 
@@ -28,6 +30,8 @@ function App() {
         return <Experience />;
       case 'projects':
         return <Projects />;
+      case 'personal':
+        return <PersonalProjects />;
       case 'contact':
         return <Contact />;
       default:
