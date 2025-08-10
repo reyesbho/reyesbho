@@ -44,16 +44,12 @@ const Header = () => {
             transition={{ delay: 0.9 }}
           >
             <div className="flex items-center gap-2">
-              <Phone size={16} />
-              <span>5638549785</span>
-            </div>
-            <div className="flex items-center gap-2">
               <Mail size={16} />
               <span>reyesbho@gmail.com</span>
             </div>
             <div className="flex items-center gap-2">
               <MapPin size={16} />
-              <span>Santa Cruz Tacahua, Oaxaca, México</span>
+              <span>Oaxaca, México</span>
             </div>
             <div className="flex items-center gap-2">
               <Github size={16} />
