@@ -109,7 +109,7 @@ const Projects = () => {
                   {project.technologies.map((tech) => (
                     <span 
                       key={tech}
-                      className="bg-gray-100 text-gray-700 px-2 py-1 rounded text-xs"
+                      className="bg-blue-100 text-blue-800 px-3 py-1 rounded-full text-sm font-medium"
                     >
                       {tech}
                     </span>
@@ -117,15 +117,6 @@ const Projects = () => {
                 </div>
                 
                 <div className="flex gap-3">
-                  <a 
-                    href={project.github}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="flex items-center gap-1 text-gray-600 hover:text-blue-600 transition-colors"
-                  >
-                    <Github size={16} />
-                    <span className="text-sm">Código</span>
-                  </a>
                   {project.live !== "#" && (
                     <a 
                       href={project.live}
