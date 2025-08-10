@@ -1,11 +1,11 @@
 import { useState } from 'react';
-import Header from './components/Header';
-import About from './components/About';
-import Skills from './components/Skills';
-import Experience from './components/Experience';
-import Projects from './components/Projects';
-import PersonalProjects from './components/PersonalProjects';
-import Contact from './components/Contact';
+import Header from './components/Header.jsx';
+import About from './components/About.jsx';
+import Skills from './components/Skills.jsx';
+import Experience from './components/Experience.jsx';
+import Projects from './components/Projects.jsx';
+import PersonalProjects from './components/PersonalProjects.jsx';
+import Contact from './components/Contact.jsx';
 import { User, Code, Briefcase, FolderOpen, Mail, Github } from 'lucide-react';
 
 function App() {
