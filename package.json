@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://reyesbho.github.io/reyesbho",
+  "homepage": "https://reyes.dev",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
